@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>postEssay</title>
+    <url>/2024/07/16/postEssay/</url>
+    <content><![CDATA[<p>创建文章</p>
+<p><code>hexo new title</code></p>
+<p>发布文章</p>
+<p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo deploy</code></p>
+]]></content>
+      <tags>
+        <tag>HEXO</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ChuZhou</title>
     <url>/2024/07/16/ChuZhou/</url>
     <content><![CDATA[<p>琅琊山<br><img src="https://my.xmy.asia/chuzhou/IMG_20240705_192223.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_153907.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_154946.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_155355.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_160035.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_161648.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_162748.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_163007.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_171845.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_172605.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240706_173432.jpg"><br><img src="https://my.xmy.asia/chuzhou/IMG_20240707_154900.jpg"></p>
 ]]></content>
       <tags>
         <tag>ChuZhou City</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue模块导出</title>
+    <url>/2024/07/19/vueExport/</url>
+    <content><![CDATA[<h3 id="export："><a href="#export：" class="headerlink" title="export："></a>export：</h3><p>可以从模块中导出多个变量、函数、类或对象。其他模块可以通过导入这些特定的命名项来使用它们。</p>
+<h4 id="引入使用："><a href="#引入使用：" class="headerlink" title="引入使用："></a>引入使用：</h4><p>导入的时候需要带花括号{}，将每个变量函数名写清楚,如使用了别名就需要引入的为别名</p>
+<h3 id="export-default："><a href="#export-default：" class="headerlink" title="export default："></a>export default：</h3><p><code>export default</code> 允许你导出一个模块的默认导出。这意味着其他模块在导入时不需要知道导出的具体名称，可以使用任何名称来引用它。每个模块只能有一个默认导出。</p>
+<h4 id="引入使用：-1"><a href="#引入使用：-1" class="headerlink" title="引入使用："></a>引入使用：</h4><p>export default只能使用一次。所以，import命令后面才不用加花括号{}</p>
+<p>参考地址</p>
+<p><a href="https://blog.csdn.net/qq_71214810/article/details/136339003">https://blog.csdn.net/qq_71214810/article/details/136339003</a></p>
+]]></content>
+      <tags>
+        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
@@ -130,17 +156,5 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>postEssay</title>
-    <url>/2024/07/16/postEssay/</url>
-    <content><![CDATA[<p>创建文章</p>
-<p><code>hexo new title</code></p>
-<p>发布文章</p>
-<p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo deploy</code></p>
-]]></content>
-      <tags>
-        <tag>HEXO</tag>
-      </tags>
   </entry>
 </search>
